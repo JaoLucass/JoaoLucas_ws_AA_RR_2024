@@ -18,8 +18,8 @@ void insertionSort(int arr[], int n) {
 }
 
 int main(int argc, char *argv[]) {
-    if (argc < 3) {
-        printf("Uso: %s <arquivo_entrada> <arquivo_saida>\n", argv[0]);
+    if (argc < 2) {
+        printf("Uso: %s <arquivo_entrada>\n", argv[0]);
         return 1;
     }
 
@@ -30,10 +30,10 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    // Abrir o arquivo de saída para escrita
-    FILE *outputFile = fopen(argv[2], "w");
-    if (outputFile == NULL) {
-        printf("Erro ao abrir o arquivo de saída %s\n", argv[2]);
+    // Abrir o arquivo de resultados para anexar os tempos de execução
+    FILE *resultFile = fopen("resultados.txt", "a");
+    if (resultFile == NULL) {
+        printf("Erro ao abrir o arquivo de resultados resultados.txt\n");
         fclose(inputFile);
         return 1;
     }
@@ -58,17 +58,16 @@ int main(int argc, char *argv[]) {
 
     cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
 
-    // Salvar os resultados no arquivo de saída
-    fprintf(outputFile, "Tamanho: %d, Tempo: %f segundos\n", n, cpu_time_used);
-    fprintf(outputFile, "Array ordenado:\n");
+    // Salvar o tempo de execução no arquivo de resultados
+    fprintf(resultFile, "Tamanho: %d, Tempo: %f segundos\n", n, cpu_time_used);
+    fclose(resultFile); // Fechar o arquivo de resultados
+
+    // Mostrar o array ordenado no terminal
+    printf("Array ordenado:\n");
     for (int i = 0; i < n; i++) {
-        fprintf(outputFile, "%d ", arr[i]);
+        printf("%d ", arr[i]);
     }
-    fprintf(outputFile, "\n");
-
-    fclose(outputFile); // Fechar o arquivo de saída
-
-    printf("Resultados salvos em %s\n", argv[2]);
+    printf("\n");
 
     return 0;
 }

@@ -21,7 +21,7 @@ Este projeto demonstra o uso do algoritmo de ordenação Insertion Sort, medindo
 
 ### 1. Preparar o Arquivo de Entrada
 
-Crie um arquivo de texto chamado `entrada.txt` contendo uma lista de números inteiros separados por espaços ou novas linhas. Exemplo de conteúdo:
+Crie um arquivo de texto com um nome, por exemplo, `entrada.txt` contendo uma lista de números inteiros separados por espaços ou novas linhas. Exemplo de conteúdo:
 
 12 11 13 5 6 20 15
 
