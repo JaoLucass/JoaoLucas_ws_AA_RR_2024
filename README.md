@@ -21,7 +21,7 @@ Este projeto demonstra o uso do algoritmo de ordenação Insertion Sort, medindo
 
 ### 1. Preparar o Arquivo de Entrada
 
-Crie um arquivo de texto com um nome, por exemplo, `entrada.txt` contendo uma lista de números inteiros separados por espaços ou novas linhas. Exemplo de conteúdo:
+Crie um arquivo de texto com um nome, por exemplo, `entrada.txt`(pode escolher o nome que quiser) contendo uma lista de números inteiros separados por espaços ou novas linhas. Exemplo de conteúdo:
 
 12 11 13 5 6 20 15
 
@@ -33,16 +33,14 @@ Crie um arquivo de texto com um nome, por exemplo, `entrada.txt` contendo uma li
 ```bash
 gcc -o insertion insertion.c
 
-Execute o programa C, fornecendo o arquivo de entrada e o arquivo de saída como argumentos:
+Execute o programa C, fornecendo o arquivo de entrada como argumento:
 
-./insertion entrada.txt resultados.txt
+./insertion entrada.txt
 ```
 
-O arquivo resultados.txt conterá os resultados do Insertion Sort. Ele terá o seguinte formato:
+O arquivo resultados.txt conterá O tempo de execução e o tamanho do array. Ele terá o seguinte formato:
 ```bash
 Tamanho: [tamanho_do_array], Tempo: [tempo_de_execução] segundos
-Array ordenado:
-[número1] [número2] [número3]
 ```
 
 # Use o script Python para gerar um gráfico de linha baseado nos resultados do arquivo de saída:
