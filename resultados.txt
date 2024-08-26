@@ -10,3 +10,12 @@ Tamanho: 455, Tempo: 0.000002 segundos
 Tamanho: 721, Tempo: 0.000472 segundos
 Tamanho: 721, Tempo: 0.000232 segundos
 Tamanho: 721, Tempo: 0.000003 segundos
+Tamanho: 2000, Tempo: 0.000007 segundos
+Tamanho: 2000, Tempo: 0.005394 segundos
+Tamanho: 2000, Tempo: 0.001762 segundos
+Tamanho: 10000, Tempo: 0.000027 segundos
+Tamanho: 10000, Tempo: 0.089631 segundos
+Tamanho: 10000, Tempo: 0.044638 segundos
+Tamanho: 30000, Tempo: 0.408284 segundos
+Tamanho: 30000, Tempo: 0.816059 segundos
+Tamanho: 30000, Tempo: 0.000079 segundos

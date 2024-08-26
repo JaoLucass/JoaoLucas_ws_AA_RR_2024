@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define MAX_SIZE 1000  // Definindo o tamanho máximo do array
+#define MAX_SIZE 60000  // Definindo o tamanho máximo do array
 
 void insertionSort(int arr[], int n) {
     int i, key, j;

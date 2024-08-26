@@ -49,6 +49,8 @@ python plot_insertion_sort.py
 
 ### O algoritmo lê resultados.txt e gera um gráfico mostrando como o tempo de execução varia com o tamanho do array.
 
-O gráfico abaixo mostra o tempo de execução do algoritmo Insertion Sort em relação ao tamanho do array de entrada:
+Os gráficos abaixo mostra o tempo de execução do algoritmo Insertion Sort em relação ao tamanho do array de entrada:
 
 ![Gráfico de Tempo de Execução](/grafico.png)
+![Gráfico de Tempo de Execução](/Figura_2.png)
+![Gráfico de Tempo de Execução](/Figura_3.png)
