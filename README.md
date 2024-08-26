@@ -47,11 +47,8 @@ Tamanho: [tamanho_do_array], Tempo: [tempo_de_execução] segundos
 
 python plot_insertion_sort.py
 
-### O script lê saida.txt e gera um gráfico mostrando como o tempo de execução varia com o tamanho do array.
+### O algoritmo lê resultados.txt e gera um gráfico mostrando como o tempo de execução varia com o tamanho do array.
 
-# Interpretar o Gráfico
+O gráfico abaixo mostra o tempo de execução do algoritmo Insertion Sort em relação ao tamanho do array de entrada:
 
-Eixo X (Tamanho do Array): Mostra o tamanho do array usado para a ordenação.
-Eixo Y (Tempo em Segundos): Mostra o tempo de execução do Insertion Sort para o respectivo tamanho de array.
-
-O gráfico deve mostrar uma tendência ascendente, refletindo o comportamento quadrático do Insertion Sort, especialmente para entradas desordenadas grandes.
+![Gráfico de Tempo de Execução](/grafico.png)
